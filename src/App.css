@@ -1,0 +1,62 @@
+
+.container {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 800px;
+}
+
+.indiv-player {
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  margin-bottom: 15px;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.name-box {
+  margin-left: 10px;
+}
+input {
+  height: 20px;
+  outline: none;
+  border: none;
+  padding-left: 8px;
+}
+
+button {
+  width: 100px;
+  padding: 10px 0;
+  margin-left: auto;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  justify-content: right;
+}
+
+button:hover {
+  border: none;
+  outline: none;
+  background-color: lightblue;
+}
+
+@media (max-width: 700px) {
+ .container {
+  display: block;
+ }
+ .indiv-player {
+  margin-right: auto;
+  margin-left: auto;
+ }
+}
+
+
+
+
+
